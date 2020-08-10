@@ -18,8 +18,8 @@ apigClientFactory.newClient = function (config) {
     var apigClient = { };
     if(config === undefined) {
         config = {
-            accessKey: '',
-            secretKey: '',
+            accessKey: 'Insert access Key',
+            secretKey: 'Insert Secret Key',
             sessionToken: '',
             region: 'us-west-2',
             apiKey: undefined,
