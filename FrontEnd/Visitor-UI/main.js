@@ -5,8 +5,8 @@ function service(x) {
 
 function callAws(x) {
   var apigClient = apigClientFactory.newClient({
-    accessKey: "AKIAJPNIFMVLMBC3LPAQ",
-    secretKey: "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",
+    accessKey: "Insert Access Key",
+    secretKey: "Insert Secret Key",
     region: "us-west-2"
   });
   let params = {};
